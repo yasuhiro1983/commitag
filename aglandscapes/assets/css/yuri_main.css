@@ -1,0 +1,468 @@
+body {
+  margin-top: 20px;
+}
+
+.content-margin-top {
+  margin-top: 80px;
+}
+
+.strong-title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+/* エラー文 */
+.error {
+  color: red;
+  /*border: 2px solid red;*/
+}
+
+/* メッセージ部分のデザイン */
+.msg {
+  clear: both;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.msg img {
+  float: left;
+  margin-right: 5px;
+}
+
+.msg p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.msg .day,
+.msg .day a {
+  font-size: 80%;
+  color: #999;
+}
+
+/* ページング */
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.navbar-default {
+  color: #FFFFFF;
+  background-color: black;
+}
+
+
+
+body {
+    padding: 20px 0px 0px 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.lib-panel {
+    margin-bottom: 20Px;
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+.no-padding {
+    padding: 0;
+}
+
+
+
+.btn3d {
+    position:relative;
+    top: -6px;
+    border:0;
+     transition: all 40ms linear;
+     margin-top:10px;
+     margin-bottom:10px;
+     margin-left:2px;
+     margin-right:2px;
+}
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+    -moz-outline-style:none;
+         outline:medium none;
+}
+.btn3d:active, .btn3d.active {
+    top:2px;
+}
+.btn3d.btn-white {
+    color: #666666;
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255,255,255,0.10) inset, 0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0,0,0,.2);
+    background-color:#fff;
+}
+.btn3d.btn-white:active, .btn3d.btn-white.active {
+    color: #666666;
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,.1);
+    background-color:#fff;
+}
+.btn3d.btn-default {
+    color: #666666;
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255,255,255,0.10) inset, 0 8px 0 0 #BEBEBE, 0 8px 8px 1px rgba(0,0,0,.2);
+    background-color:#f9f9f9;
+}
+.btn3d.btn-default:active, .btn3d.btn-default.active {
+    color: #666666;
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,.1);
+    background-color:#f9f9f9;
+}
+.btn3d.btn-primary {
+    box-shadow:0 0 0 1px #417fbd inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #4D5BBE, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#4274D7;
+}
+.btn3d.btn-primary:active, .btn3d.btn-primary.active {
+    box-shadow:0 0 0 1px #417fbd inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color:#4274D7;
+}
+.btn3d.btn-success {
+    box-shadow:0 0 0 1px #31c300 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #5eb924, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#78d739;
+}
+.btn3d.btn-success:active, .btn3d.btn-success.active {
+    box-shadow:0 0 0 1px #30cd00 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #78d739;
+}
+.btn3d.btn-info {
+    box-shadow:0 0 0 1px #00a5c3 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #348FD2, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#39B3D7;
+}
+.btn3d.btn-info:active, .btn3d.btn-info.active {
+    box-shadow:0 0 0 1px #00a5c3 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #39B3D7;
+}
+.btn3d.btn-warning {
+    box-shadow:0 0 0 1px #d79a47 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #D79A34, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#FEAF20;
+}
+.btn3d.btn-warning:active, .btn3d.btn-warning.active {
+    box-shadow:0 0 0 1px #d79a47 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #FEAF20;
+}
+.btn3d.btn-danger {
+    box-shadow:0 0 0 1px #b93802 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #AA0000, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#D73814;
+}
+.btn3d.btn-danger:active, .btn3d.btn-danger.active {
+    box-shadow:0 0 0 1px #b93802 inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #D73814;
+}
+.btn3d.btn-magick {
+    color: #fff;
+    box-shadow:0 0 0 1px #9a00cd inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #9823d5, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#bb39d7;
+}
+.btn3d.btn-magick:active, .btn3d.btn-magick.active {
+    box-shadow:0 0 0 1px #9a00cd inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color: #bb39d7;
+}
+
+/*コンテンツ*/
+/*タブセクション*/
+.index{
+  margin-top: 40px;
+  padding-bottom: 20px;
+  height: 140px;
+}
+
+.index-box{
+  text-align: center;
+  font-size:70px;
+}
+
+/*タブシステム*/
+
+label.panel-label {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: block;
+  width: 100%;
+  color: #bdc3c7;
+  cursor: pointer;
+  background-color: #ecf0f1;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+}
+label.panel-label:hover {
+  color: #003399;
+}
+
+#panels {
+  background-color: white;
+  height: 100%;
+}
+#panels .container {
+  margin: 0 auto;
+}
+#panels section header label.panel-label {
+  padding: 12px 24px;
+  box-sizing: border-box;
+}
+#panels section main {
+  box-sizing: border-box;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: opacity 600ms;
+  transition: opacity 600ms;
+  overflow-y: hidden;
+}
+
+#tabs-list{
+  font-size: 50px;
+}
+
+#panel-1-ctrl:checked ~ #panels #panel-1 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
+
+#panel-2-ctrl:checked ~ #panels #panel-2 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
+
+#panel-3-ctrl:checked ~ #panels #panel-3 main {
+  max-height: initial;
+  opacity: 1;
+  padding: 48px 24px;
+}
+#panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 {
+  pointer-events: none;
+  cursor: default;
+  -webkit-transform: translate3d(0, 1px, 0);
+  transform: translate3d(0, 1px, 0);
+  box-shadow: none;
+  border-right: none;
+}
+#panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1.last {
+  border-right: 1px solid transparent;
+}
+#panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 + li {
+  border-left: 1px solid #dfdfdf;
+}
+#panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
+  background-color: white;
+  color: #003399;
+  padding-top: 24px;
+}
+#panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label::after {
+  height: 6px;
+}
+
+#panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 {
+  pointer-events: none;
+  cursor: default;
+  -webkit-transform: translate3d(0, 1px, 0);
+  transform: translate3d(0, 1px, 0);
+  box-shadow: none;
+  border-right: none;
+}
+#panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2.last {
+  border-right: 1px solid transparent;
+}
+#panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 + li {
+  border-left: 1px solid #dfdfdf;
+}
+#panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label {
+  background-color: white;
+  color: #003399;
+  padding-top: 24px;
+}
+#panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label::after {
+  height: 6px;
+}
+
+#panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 {
+  pointer-events: none;
+  cursor: default;
+  -webkit-transform: translate3d(0, 1px, 0);
+  transform: translate3d(0, 1px, 0);
+  box-shadow: none;
+  border-right: none;
+}
+#panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3.last {
+  border-right: 1px solid transparent;
+}
+#panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 + li {
+  border-left: 1px solid #dfdfdf;
+}
+#panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label {
+  background-color: white;
+  color: #003399;
+  padding-top: 24px;
+}
+#panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label::after {
+  height: 6px;
+}
+
+ul#tabs-list {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  border-bottom: 1px solid #dfdfdf;
+  margin: 0;
+  padding: 0;
+}
+ul#tabs-list li {
+  text-align: center;
+  font-size: 0.875em;
+  width: 18%;
+  box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.05);
+  border-right: 1px solid #dfdfdf;
+  position: relative;
+}
+ul#tabs-list li:hover {
+  -webkit-transition: none;
+  transition: none;
+  border-right: none;
+}
+ul#tabs-list li:hover.last {
+  border-right: 1px solid transparent;
+}
+ul#tabs-list li:hover + li {
+  border-left: 1px solid #dfdfdf;
+}
+ul#tabs-list li label.panel-label {
+  position: relative;
+  padding: 24px 0;
+  font-size: 0.875em;
+}
+ul#tabs-list li label.panel-label::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 100%;
+  background-color: #003399;
+  height: 0;
+  -webkit-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+}
+ul#tabs-list li label.panel-label:hover {
+  padding-top: 24px;
+}
+ul#tabs-list li label.panel-label:hover::after {
+  height: 6px;
+}
+
+main {
+    margin: 0 auto;
+}
+.panel-radios {
+  display: none;
+}
+
+body {
+  color: #444444;
+}
+
+main p {
+  line-height: 1.8;
+}
+
+
+
+/*日本地図セクション*/
+#jmap{
+  text-align: center;
+}
+
+/*カレンダーセクション*/
+.form-group{
+  margin:0 auto ;
+  text-align: center;
+}
+#my_hidden_input{
+  margin-bottom: 20px;
+}
+
+.search-button{
+  text-align: center;
+}
+
+/*作物セクション*/
+.produce-box{
+  text-align: center;
+}
+
+/*フッター*/
+.footer{
+  background-color:#000000;
+}
+
+.footer-menu{
+  margin-top:128px;
+}
+
+#white{
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+

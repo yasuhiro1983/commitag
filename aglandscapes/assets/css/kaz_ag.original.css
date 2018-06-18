@@ -1,0 +1,16 @@
+.header{
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+body{
+  background-color: white;
+  padding: 0px;
+}
+
+.col-md-offset-3 {
+    margin-left: 25%;
+}

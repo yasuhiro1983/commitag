@@ -1,0 +1,178 @@
+.header{
+  color: #FFF;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+}
+
+
+/*ここからチャット*/
+
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 600px;
+    margin-left: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+
+.primary-font{
+  color: #000;
+}
+
+
+#btn-input {
+    width: 620px;
+    height: 120px;
+}
+
+
+.input-group-btn > .btn {
+  padding: 8px 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+
+
+.farmer {
+    margin-left:0px;
+    margin-right:80px;
+}
+
+.user {
+    margin-left:80px;
+    margin-right:0px
+}
+
+
+h5 {
+    font-size: 16.5px;
+    margin: 10px 0px;
+}
+
+
+
+.input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.footer{
+  background-color:#000000 ;
+}
+
+.footer-menu{
+  margin-top:128px;
+}
+
+
+/*body{
+  padding: 0px;
+}*/
+
+.navbar-default .navbar-nav > li > a {
+  color:#FFF;
+}
+
+
+
+.margin {
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+
+#white {
+  color: #FFFFFF;
+}
+
+
+.pad {
+    position: relative;
+    min-height: 1px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#comment {
+  border-bottom: 1px solid: #333;
+}
+
+
+/*変更部分*/
+.navbar {
+    margin-bottom: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+

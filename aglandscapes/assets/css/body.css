@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+}
+
+div.container{
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+
+.navbar-default {
+  color: #FFFFFF;
+  background-color: black;
+}
+
+ul,
+ol {
+  letter-spacing: 0.1em;
+  padding: 0 0 0 30px;
+  margin: 0 0 20px;
+  font-size: 13px;
+  color: #FFF;
+}
+
+.container {
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+body{
+	padding: 0px;
+}
+
+.header{
+	color:#FFF;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+	color:#FFF;
+}
+
+
+.footer{
+  background-color:#000000 ;
+}
+
+#white {
+  color: #FFFFFF;
+}
